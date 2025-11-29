@@ -1,0 +1,5 @@
+/* frontend/css/styles.css - minimal */
+body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; margin: 16px; color: #111; }
+header { margin-bottom: 12px; }
+#driversList div { padding: 6px 0; border-bottom: 1px solid #eee; }
+button { padding: 8px 12px; cursor: pointer; }

@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>F1 Picks</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+</head>
+<body>
+  <header><h1>F1 Picks</h1></header>
+  <main id="app">
+    <section id="auth">
+      <input id="email" placeholder="Email" />
+      <button id="loginBtn">Send Magic Link</button>
+      <div id="userInfo"></div>
+    </section>
+
+    <section id="pickSection">
+      <h2>Make your picks</h2>
+      <div id="eventSelect"></div>
+      <div id="driversList"></div>
+      <button id="savePicksBtn">Submit Picks</button>
+    </section>
+
+    <section id="msg"></section>
+  </main>
+
+  <script type="module" src="js/main.js"></script>
+  <script type="module" src="js/picks.js"></script>
+</body>
+</html>
